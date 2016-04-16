@@ -1,4 +1,4 @@
-#SYUnlimited(无限轮播)
+#SYCarouse(无限轮播)
 
 
 #**** 使用本工具之前必须在SYCarouseView.h中导入SDWebImage头文件 工作中的网络数据开发请参考---->网络开发使用步骤 ****#
