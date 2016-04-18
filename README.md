@@ -67,7 +67,7 @@ carouselV.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIS
 
 carouselV.modelList = @[模型....];
 
-#** 在cell中重写模型set方法 会制动根据index给model赋值 **#
+#** 在cell中重写模型set方法 会自动根据index给model赋值 **#
 -(void)setModel:(SYHeaderModel *)model{
 _model = model;
 _titleLab.text = model.title;
